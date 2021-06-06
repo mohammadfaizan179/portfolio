@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet&family=Balsamiq+Sans&display=swap');
+
+
+.education_container{
+    /* border: 2px solid red; */
+    /* background-color: #10101E; */
+    width: 100%;
+    min-height: 91vh;
+}
+.edu_heading_wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.edu_heading_text{
+    border-bottom: 2px solid green;
+    font-family: 'Balsamiq Sans', cursive !important; 
+}
+.gridWraper{
+    /* border: 2px solid green; */
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.cardMedia{
+    width: 15% !important;
+    margin-left: 40% !important;
+    margin-top: 5% !important;
+}
+.gridItem{
+    margin: 10px !important;
+}
+.cardButton{
+    margin-left: 28% !important;
+}
+
+.card_item_text_heading{
+    font-size: 22px !important;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif !important;
+    color: royalblue;
+}
+.card_item_text{
+    font-size: 18px !important;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif !important;
+    padding-top: 10px;  
+}
+.card_item_res{
+    font-size: 18px !important;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif !important;
+    padding-top: 10px;  
+    color: #ff6600;
+}
