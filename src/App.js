@@ -4,6 +4,7 @@ import About from "./Component/About";
 import Education from "./Component/Education";
 import Skills from "./Component/Skills";
 import Certification from "./Component/Certification";
+import Achievements from "./Component/Achievements";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Education />
         <Skills />
         <Certification />
+        <Achievements />
     </div>
   );
 }

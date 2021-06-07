@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ballet&family=Balsamiq+Sans&display=swap');
 
 .skills_container{
+    border: 2px solid orange;
     background-color: #10101E;
     width: 100%;
     min-height: 91vh;

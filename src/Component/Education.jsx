@@ -3,7 +3,6 @@ import "../Styles/Education.css";
 import {ThemeProvider, Grid, Card, CardMedia, Typography, Box, CardContent, CardActions, Button, Dialog, DialogTitle, DialogContent, DialogActions} from "@material-ui/core";
 import {createMuiTheme} from "@material-ui/core/styles";
 import cap from "../Images/cap2.png";
-import fazi from "../Images/fazi7.png";
 import matric from "../Images/matric.jpg";
 import fsc from "../Images/fsc.jpg";
 import be from "../Images/be.jpg";

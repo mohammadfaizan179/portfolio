@@ -3,11 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ballet&family=Balsamiq+Sans&display=swap');
 
 .cer_container{
-    /* border: 2px solid green; */
+    border: 2px solid green;
     background-color: #10101E;
     width: 100%;
     min-height: 91vh;
-    margin-top: 0px;
 }
 .cer_heading{
     display: flex;

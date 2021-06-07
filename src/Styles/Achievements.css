@@ -1,0 +1,32 @@
+.education_container{
+    border: 2px solid red;
+    width: 100%;
+    min-height: 91vh;
+}
+.ach_heading_wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.ach_heading_text{
+    border-bottom: 2px solid green;
+    font-family: 'Balsamiq Sans', cursive !important;
+}
+.achGridWraper{
+    border: 2px solid orange;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.achGridItem{
+    border: 2px solid tomato;
+    margin: 10px !important;
+}
+.achGridItem *{
+    font-family: 'Noto Serif', serif !important;
+    text-align: justify !important;
+}
+.achListItemText:hover{
+    color: royalblue;
+}
