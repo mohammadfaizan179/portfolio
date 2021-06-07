@@ -103,8 +103,7 @@ const Education = () => {
                     }
                     {
                         name==="be" && <img src={be} alt="result" width="500px" />
-                    }
-                        
+                    }               
                 </DialogContent>          
                 <DialogActions>
                     <Button color="secondary" variant="contained" onClick={handleCloseDialog}><ClearIcon /></Button>

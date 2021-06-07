@@ -1,5 +1,47 @@
-.certificate_container{
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet&family=Balsamiq+Sans&display=swap');
+
+.cer_container{
+    /* border: 2px solid green; */
     background-color: #10101E;
     width: 100%;
     min-height: 91vh;
+    margin-top: 0px;
+}
+.cer_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.cer_wraper{
+    /* border: 2px solid red; */
+    color: #fff;
+    /* width: 60%; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.cer_innner_wraper{
+    /* border: 2px solid orange; */
+    width: 60%;
+    margin-top: 3%;
+}
+.cer_innner_wraper *{
+    font-family: 'Noto Serif', serif !important;
+}
+
+@media(max-width: 960px){
+    .cer_innner_wraper{
+        width: 70%;
+    }   
+}
+@media(max-width: 540px){
+    .cer_innner_wraper{
+        width: 85%;
+    }   
 }
