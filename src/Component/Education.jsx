@@ -7,8 +7,8 @@ import fazi from "../Images/fazi7.png";
 import matric from "../Images/matric.jpg";
 import fsc from "../Images/fsc.jpg";
 import be from "../Images/be.jpg";
-
 import ClearIcon from '@material-ui/icons/Clear';
+
 const theme = createMuiTheme({
     breakpoints: {
       values: {
@@ -19,7 +19,7 @@ const theme = createMuiTheme({
         xl: 1140,
       },
     },
-  })
+})
 const Education = () => {
     const [openPopup, setOpenPopup] = useState(false)
     const [name, setName] = useState("")
@@ -40,7 +40,7 @@ const Education = () => {
             </Box>
             <ThemeProvider theme={theme}>
                 <div className="gridWraper">
-                <Grid container>
+                <Grid container justify="center">
                     <Grid item xs={12} sm={6} lg={4}>
                     <div className="gridItem">
                         <Card variant="elevation" elevation={10}>
@@ -92,7 +92,7 @@ const Education = () => {
                 </Grid>
                 </div>
             </ThemeProvider>
-            <Dialog open={openPopup} onClose={handleCloseDialog}  width="600px" height="900px" >
+            <Dialog open={openPopup} onClose={handleCloseDialog}  width="600px" height="900px" fullWidth maxWidth="sm">
                 <DialogTitle >Result</DialogTitle>
                 <DialogContent dividers>
                     {

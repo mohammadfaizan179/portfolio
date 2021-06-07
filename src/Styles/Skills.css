@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet&family=Balsamiq+Sans&display=swap');
+
+.skills_container{
+    background-color: #10101E;
+    width: 100%;
+    min-height: 91vh;
+}
+.skills_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.skills_heading_text{
+    font-family: 'Balsamiq Sans', cursive !important; 
+    border-bottom: 2px solid#e62e00;
+}
+.skillsGridWraper{
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.skillsGridItem{
+    /* border: 2px solid red; */
+    font-size: 24px !important;
+    margin: 10px !important;
+}
+.skillsGridItem *{
+    font-size: 20px !important;
+    font-family: 'Noto Serif', serif !important;
+    padding-top: 5px;
+}
