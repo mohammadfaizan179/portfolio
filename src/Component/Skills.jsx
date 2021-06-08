@@ -36,7 +36,7 @@ const theme = createMuiTheme({
 })
 const Skills = () => {
     return (
-        <div className="skills_container">
+        <div className="skills_container" id="skills">
             <Box className="skills_heading">
                     <Typography className="skills_heading_text" variant="h4">Skills</Typography>
             </Box>

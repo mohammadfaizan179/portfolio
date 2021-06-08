@@ -7,8 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 .ach_heading_text{
     /* border-bottom: 2px solid green; */

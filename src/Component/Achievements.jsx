@@ -18,7 +18,7 @@ const theme = createMuiTheme({
 
 const Achievements = () => {
     return (
-        <div className="ach_container">
+        <div className="ach_container" id="achievement">
             <Box className="ach_heading_wraper">
                 <Typography variant="h4" className="ach_heading_text">Achievement</Typography>
             </Box>

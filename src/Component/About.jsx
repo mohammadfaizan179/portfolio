@@ -6,7 +6,7 @@ import aboutPic from "../Images/about.png";
 const About = () => {
     return (
         <>
-            <div className="about_container">
+            <div className="about_container" id="about">
                 <Box className="about_heading">
                     <Typography className="about_me" variant="h4">About me</Typography>
                     <Typography className="who_am_i" variant="h6">--- Who Am I ---</Typography>

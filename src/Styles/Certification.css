@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ballet&family=Balsamiq+Sans&display=swap');
 
 .cer_container{
-    border: 2px solid green;
+    /* border: 2px solid blue; */
     background-color: #10101E;
     width: 100%;
     min-height: 91vh;
@@ -13,8 +13,8 @@
     justify-content: center;
     align-items: center;
     color: #fff;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .cer_wraper{
     /* border: 2px solid red; */
@@ -28,7 +28,6 @@
 .cer_innner_wraper{
     /* border: 2px solid orange; */
     width: 60%;
-    margin-top: 3%;
 }
 .cer_innner_wraper *{
     font-family: 'Noto Serif', serif !important;

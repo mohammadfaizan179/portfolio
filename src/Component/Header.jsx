@@ -9,7 +9,7 @@ import myPic from "../Images/fazi7.png";
 
 const Header = () => {
     return (
-        <div className="header_wraper">   
+        <div className="header_wraper" id="home">   
         <Box className="header_content">
             <Typography variant="h6" className="top_caption">Hi There, I'm</Typography>
             <Typography variant="h4" className="name">Muhammad Faizan</Typography>

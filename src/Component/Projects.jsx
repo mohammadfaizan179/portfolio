@@ -28,7 +28,7 @@ const Projects = () => {
     const classes = useStyles();
 
     return (
-        <div className="pro_container">
+        <div className="pro_container" id="projects">
             <Box className="pro_heading_wraper">
                 <Typography variant="h4" className="pro_heading_text">Projects</Typography>
             </Box>

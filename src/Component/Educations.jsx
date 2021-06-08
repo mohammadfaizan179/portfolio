@@ -33,7 +33,7 @@ const Educations = () => {
     };
     
     return (
-        <div className="education_container">
+        <div className="education_container" id="edu">
             <Box className="edu_heading_wraper">
                 <Typography variant="h4" className="edu_heading_text">Education</Typography>
             </Box>

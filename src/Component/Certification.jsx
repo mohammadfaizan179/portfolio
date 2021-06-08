@@ -43,7 +43,7 @@ import Certificate from "./Certificate";
         };
         
         return (
-            <div className="cer_container">
+            <div className="cer_container" id="certificate">
                 <Box className="cer_heading">
                     <Typography className="skills_heading_text" variant="h4">Certification</Typography>
                 </Box>

@@ -4,17 +4,18 @@
 
 
 .education_container{
-    /* border: 2px solid red; */
+    /* border: 2px solid green; */
     /* background-color: #10101E; */
     width: 100%;
     min-height: 91vh;
 }
 .edu_heading_wraper{
+    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .edu_heading_text{
     border-bottom: 2px solid green;

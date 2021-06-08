@@ -13,7 +13,11 @@ body{
     color: white !important;
     font-size: 16px;   
 }
-
+.active{
+    color: coral !important;
+    font-weight: 700;
+    /* border-bottom: px solid red !important; */
+}
 @media(max-width: 960px){
     .navLink *{
         font-size: 20px;   

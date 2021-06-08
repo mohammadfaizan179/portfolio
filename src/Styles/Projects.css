@@ -2,13 +2,14 @@
     /* border: 2px solid red; */
     width: 100%;
     min-height: 91vh;
+    padding-bottom: 60px;
 }
 .pro_heading_wraper{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .pro_heading_text{
     border-bottom: 2px solid green;

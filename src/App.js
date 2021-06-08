@@ -6,6 +6,8 @@ import Skills from "./Component/Skills";
 import Projects from "./Component/Projects";
 import Certification from "./Component/Certification";
 import Achievements from "./Component/Achievements";
+import {Button} from "@material-ui/core";
+import {animateScroll as scroll} from "react-scroll";
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Projects />
         <Certification />
         <Achievements />
+        {/* <Button variant="contained" color="primary" onClick={()=>{scroll.scrollToTop()}}>Top</Button> */}
     </div>
   );
 }

@@ -3,18 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Ballet&family=Balsamiq+Sans&display=swap');
 
 .skills_container{
-    border: 2px solid orange;
+    /* border: 2px solid gold; */
     background-color: #10101E;
     width: 100%;
     min-height: 91vh;
+    padding-bottom: 20px;
 }
 .skills_heading{
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 .skills_heading_text{
     font-family: 'Balsamiq Sans', cursive !important; 
