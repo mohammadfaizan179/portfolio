@@ -9,6 +9,7 @@ import NavbarComponentSub from "./NavbarComponentSub";
 const NavbarComponent = () => {
     return (
         <>
+            
             <Navbar bg="dark" variant="dark" sticky="top" expand="md">
                   <Navbar.Brand style={{flexGrow: 30}} >
                         <Typography variant="h5" style={{marginLeft:"20px"}}>Muhammad Faizan</Typography>
