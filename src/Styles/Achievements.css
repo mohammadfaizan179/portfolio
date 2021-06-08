@@ -1,5 +1,5 @@
 .ach_container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     min-height: 91vh;
 }
@@ -11,17 +11,17 @@
     margin-bottom: 60px;
 }
 .ach_heading_text{
-    border-bottom: 2px solid green;
+    /* border-bottom: 2px solid green; */
     font-family: 'Balsamiq Sans', cursive !important;
 }
 .achGridWraper{
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     padding-left: 80px;
     padding-right: 80px;
 }
 .achGridItem{
-    border: 2px solid tomato;
-    margin: 10px !important;
+    /* border: 2px solid tomato; */
+    margin: 30px !important;
 }
 .achGridItem *{
     font-family: 'Noto Serif', serif !important;
