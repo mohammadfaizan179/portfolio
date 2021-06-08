@@ -1,12 +1,9 @@
 import React from 'react'
 import "../Styles/Educations.css";
-
-import {createMuiTheme} from "@material-ui/core/styles";
-import {Grid, Card, CardMedia, Typography, Box, CardContent, CardActions, Button, Dialog, DialogTitle, DialogContent, DialogActions} from "@material-ui/core";
+import {Grid, Card, CardMedia, Typography, CardContent, CardActions, Button} from "@material-ui/core";
 import cap from "../Images/cap2.png";
 
-
-const Education = ({handleOpenDialog,degree, school, year, result}) => {
+const Education = ({handleOpenDialog,degree, school, year, result,marksheet}) => {
     return (
         <>
             <Grid item xs={12} sm={6} lg={4}>
@@ -20,7 +17,7 @@ const Education = ({handleOpenDialog,degree, school, year, result}) => {
                         <Typography className="card_item_res">{result}</Typography>                            
                     </CardContent>
                     <CardActions className="cardButton">
-                        <Button style={{backgroundColor: "royalblue"}} variant="contained" color="primary" color="primary" onClick={()=> handleOpenDialog("matric")}>View Marksheet</Button>
+                    {degree === "be"}    <Button style={{backgroundColor: "royalblue"}} variant="contained" color="primary" color="primary" onClick={()=> handleOpenDialog(marksheet)}>View Marksheet</Button>
                     </CardActions>
                 </Card>
             </div>

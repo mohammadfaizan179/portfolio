@@ -21,7 +21,7 @@
     font-family: 'Balsamiq Sans', cursive !important; 
 }
 .gridWraper{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     padding-left: 40px;
     padding-right: 40px;
 }

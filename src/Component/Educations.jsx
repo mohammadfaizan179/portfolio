@@ -42,11 +42,12 @@ const Educations = () => {
                 <div className="gridWraper">
                 <Grid container justify="center">
                     <Education
-                        handleOpenDialog         
+                        handleOpenDialog={handleOpenDialog}         
                         degree="Bacholar of Electrical Engineering"
                         school="Sukkur IBA University"
                         year="2021"
                         result="3.51 / 4"
+                        marksheet="be"
                     />
                     <Education
                         handleOpenDialog={handleOpenDialog}         
@@ -54,13 +55,15 @@ const Educations = () => {
                         school="Degree College Bakrani Larkana"
                         year="2016"
                         result="75.58 %"
+                        marksheet="fsc"
                     />
                     <Education
-                        handleOpenDialog         
+                        handleOpenDialog={handleOpenDialog}   
                         degree="Matriculation in Science"
                         school="Dr.NA Baloch Model School Hyderabad"
                         year="2013"
                         result="71.58 %"
+                        marksheet="matric"
                     />
                 </Grid>
                 </div>
