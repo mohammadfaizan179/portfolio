@@ -1,0 +1,47 @@
+.pro_container{
+    /* border: 2px solid red; */
+    width: 100%;
+    min-height: 91vh;
+}
+.pro_heading_wraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.pro_heading_text{
+    border-bottom: 2px solid green;
+    font-family: 'Balsamiq Sans', cursive !important;
+}
+.proGridWraper{
+    /* border: 2px solid orange; */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.proGridItem{
+    /* border: 2px solid tomato; */
+    margin: 10px !important;
+}
+.proGridItem *{
+    font-family: 'Noto Serif', serif !important;
+    text-align: justify !important;
+}
+.projectCardMedia{
+    height: 180px;
+}
+.project_card_heading{
+    font-size: 22px !important;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif !important;
+    color: royalblue;
+}
+.project_card_text{
+    font-size: 16px !important;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif !important;
+    padding-top: 10px;  
+}
+.projectCardButton{
+    margin-left: 10% !important;
+}

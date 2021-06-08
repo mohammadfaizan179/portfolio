@@ -6,7 +6,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
-import {ThemeProvider, Grid, Card, CardMedia, Typography, Box, CardContent, CardActions, Button, Dialog, DialogTitle, DialogContent, DialogActions} from "@material-ui/core";
+import {ThemeProvider, Grid, Typography, Box} from "@material-ui/core";
 
 const theme = createMuiTheme({
     breakpoints: {
@@ -22,7 +22,7 @@ const theme = createMuiTheme({
 
 const Achievements = () => {
     return (
-        <div className="education_container">
+        <div className="ach_container">
             <Box className="ach_heading_wraper">
                 <Typography variant="h4" className="ach_heading_text">Achievement</Typography>
             </Box>
