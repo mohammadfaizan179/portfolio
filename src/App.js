@@ -1,7 +1,7 @@
 import NavbarComponent from "./Component/NavbarComponent";
 import Header from "./Component/Header";
 import About from "./Component/About";
-import Education from "./Component/Education";
+import Educations from "./Component/Educations";
 import Skills from "./Component/Skills";
 import Projects from "./Component/Projects";
 import Certification from "./Component/Certification";
@@ -13,7 +13,7 @@ function App() {
         <NavbarComponent />
         <Header />
         <About />
-        <Education />
+        <Educations />
         <Skills />
         <Projects />
         <Certification />
