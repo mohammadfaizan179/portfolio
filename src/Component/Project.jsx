@@ -2,7 +2,7 @@ import React from 'react'
 import {Grid, Typography, Button, Card, CardMedia, CardContent, CardActions} from "@material-ui/core";
 import "../Styles/Projects.css";
 
-const Project = ({pic, title, content}) => {
+const Project = ({pic, title, content, link}) => {
     return (
         <>
           <Grid item xs={12} sm={6} md={4}>
@@ -14,8 +14,8 @@ const Project = ({pic, title, content}) => {
                     <Typography className="project_card_text">{content}</Typography>                           
                 </CardContent>
                 <CardActions className="projectCardButton">
-                    <Button style={{backgroundColor: "royalblue"}} variant="contained" color="primary">Watch Video</Button>
-                    <Button style={{backgroundColor: "royalblue"}} variant="contained" color="primary">Visit Project</Button>
+                    <Button style={{backgroundColor: "royalblue"}} variant="contained" color="primary" fullWidth component="a" href={link} target="_blank">Github</Button>
+                    {/* <Button style={{backgroundColor: "royalblue"}} variant="contained" color="primary" fullWidth>Visit Project</Button> */}
                 </CardActions>
             </Card>
             </div>

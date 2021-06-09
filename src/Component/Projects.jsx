@@ -5,6 +5,9 @@ import {createMuiTheme} from "@material-ui/core/styles";
 import cap from "../Images/fort.jpg";
 import { makeStyles } from '@material-ui/core/styles';
 import Project from "./Project";
+import crud from "../Images/crud2.jpg";
+import covid from "../Images/covid.jpeg";
+import store from "../Images/store.jpg";
 
 const theme = createMuiTheme({
     breakpoints: {
@@ -36,19 +39,22 @@ const Projects = () => {
                 <div className="proGridWraper">
                     <Grid container justify="center">
                         <Project 
-                            pic={cap}
+                            pic={crud}
                             title="Crud App"
                             content="This app allows the user to perform the 4 popular API CRUD operations i.e. create, read, update and delete. The data given by the user is stored in the JSON file by the axios."
+                            link="https://github.com/mohammadfaizan179/crud-app"
                         />
                         <Project 
-                            pic={cap}
+                            pic={covid}
                             title="Covid-19 Dashboard"
                             content="This App is about the Covid-19, you can check the current covid-19 cases country wise. Besides, you will get awarness of symptom, causes and frequently asked questions."
+                            link="https://github.com/mohammadfaizan179/covid_19_dashboard"
                         />
                         <Project 
-                            pic={cap}
+                            pic={store}
                             title="E-Commerce Shop"
                             content="It is a E-commerce store that allow you users to add the products in the cart, increase or decrease the item quantity, remove the item from cart, and purchase it. Besides it send confirmation email."
+                            link="https://github.com/mohammadfaizan179/e_commerce_website"
                         />
                     </Grid>
                 </div>

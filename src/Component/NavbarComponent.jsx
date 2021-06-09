@@ -5,14 +5,15 @@ import { Link, animateScroll as scrol} from "react-scroll"
 import {Navbar, Nav} from "react-bootstrap";
 import {Typography} from "@material-ui/core";
 import NavbarComponentSub from "./NavbarComponentSub";
-
+import logo from "../Images/logo.png"
 const NavbarComponent = () => {
     return (
         <>
             
             <Navbar bg="dark" variant="dark" fixed="top" expand="md">
                   <Navbar.Brand style={{flexGrow: 30}} >
-                        <Typography variant="h5" style={{marginLeft:"20px"}}>Muhammad Faizan</Typography>
+                        {/* <img src={logo} alt="logo" style={{marginLeft:"60px"}}/> */}
+                        <Typography variant="h5" style={{marginLeft:"20px", fontFamily:"cursive"}}>Muhammad Faizan</Typography>
                   </Navbar.Brand>
                   <Navbar.Toggle style={{marginRight:"20px"}}/>
                   <Navbar.Collapse>
@@ -25,20 +26,6 @@ const NavbarComponent = () => {
                         <NavbarComponentSub title="Projects" to="projects"/>
                         <NavbarComponentSub title="Certification" to="certificate"/>
                         <NavbarComponentSub title="Achievement" to="achievement"/>
-                       
-                        {/* <Nav.Link>
-                            <Link
-                                activeClass="active"
-                                to="achievement"
-                                spy={true}
-                                smooth={true}
-                                // offset={-50}
-                                duration={100}
-                                // className={classes.itemSpacing}
-                            >
-                                
-                            </Link>
-                        </Nav.Link> */}
                     </Nav>
                     </div>
                   </Navbar.Collapse>

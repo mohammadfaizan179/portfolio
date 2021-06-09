@@ -33,7 +33,6 @@
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .contentGrid{
     /* border: 2px solid red; */
@@ -62,13 +61,12 @@
     .about_content_myName{
         font-size: 35px !important; 
         padding-top: 25px; 
-    }
-    .about_pic{
-        width: 60% !important;
-        height: 50% !important;
-        border-radius: 200px;
-        /* border: 2px solid red; */
     }       
+    .about_pic{
+        width: 70% !important;
+        height: 80% !important;
+        border-radius: 200px;
+    }
 }
 @media(max-width: 720px){
     .about_container{
@@ -85,11 +83,14 @@
         font-size: 35px !important; 
         padding-top: 25px; 
     }
+    .about_heading{
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
     .about_pic{
-        width: 40% !important;
-        height: 70% !important;
+        width: 70% !important;
+        height: 90% !important;
         border-radius: 200px;
-        /* border: 2px solid red; */
     }
 }
 @media(max-width: 540px){
@@ -106,8 +107,9 @@
         padding-top: 60px;
         padding-bottom: 30px;
     }
-    .picGrid{
-        margin-bottom: 15px !important;
+    .about_pic{
+        width: 70% !important;
+        height: 90% !important;
+        border-radius: 200px;
     }
-    
 }

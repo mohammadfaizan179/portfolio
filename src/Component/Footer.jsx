@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <>
             <div style={{display: "flex", textAlign:"center", justifyContent:"center", backgroundColor:"#222023", color:"#ffffff", marginTop:"20px"}}>
-                <Typography>CopyRight<sup>©️</sup> by Muhammad Fizan </Typography>
+                <Typography style={{fontFamily:"Noto Serif, serif"}}>CopyRight<sup>©️</sup> by Muhammad Faizan </Typography>
             </div>
         </>
     )

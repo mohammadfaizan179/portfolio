@@ -44,7 +44,12 @@
     padding-top: 10px;  
 }
 .projectCardButton{
-    margin-left: 10% !important;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.projectCardButton *:hover{
+    color: rgb(0, 0, 0);
 }
 
 @media(max-width: 960px){
@@ -54,9 +59,6 @@
     }
     .proGridItem{
         margin-bottom: 20px !important;
-    }
-    .projectCardButton{
-        margin-left: 1% !important;
     }
     .projectCardButton *{
         font-size: 12px !important;
@@ -71,9 +73,7 @@
     .proGridItem{
         margin-bottom: 20px !important;
     }
-    .projectCardButton{
-        margin-left: 1% !important;
-    }
+    
 }
 @media(max-width: 540px){
     .proGridWraper{
@@ -84,15 +84,20 @@
         margin-bottom: 20px !important;
     }
     .projectCardButton{
-        margin-left: 1% !important;
+        flex-direction: column;
+        border: 2px solid red;
+    }
+    .projectCardButton *{
+        margin: 5px !important;
     }
 }
 
-@media(min-width: 960px){    
+/* @media(min-width: 960px){    
+
     .projectCardButton{
-        margin-left: 4% !important;
+        margin-left: 1% !important;
     }
     .projectCardButton *{
         font-size: 12px !important;
     }
-}
+} */

@@ -1,7 +1,7 @@
 import React from 'react';
 import "../Styles/About.css";
 import {Box, Typography, Grid} from "@material-ui/core";
-import aboutPic from "../Images/about.png";
+import aboutPic from "../Images/myPic2.png";
 
 const About = () => {
     return (
