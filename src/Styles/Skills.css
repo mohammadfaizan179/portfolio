@@ -43,3 +43,13 @@
     font-family: 'Noto Serif', serif !important;
     padding-top: 5px;
 }
+
+@media(max-width: 540px){
+    .skillsGridItem{
+        width: 250px;
+    }
+    .skillsGridWraper{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

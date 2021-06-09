@@ -18,7 +18,6 @@ function App() {
   },[])
   return (
     <div>
-
         <NavbarComponent />
         <Header />
         <div data-aos="fade-right" style={{overflowX: "hidden", overflowY: "hidden"}} >

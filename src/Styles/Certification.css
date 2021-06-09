@@ -27,7 +27,8 @@
 }
 .cer_innner_wraper{
     /* border: 2px solid orange; */
-    width: 60%;
+    width: 60% !important;
+    margin-bottom: 30px;
 }
 .cer_innner_wraper *{
     font-family: 'Noto Serif', serif !important;
@@ -38,8 +39,19 @@
         width: 70%;
     }   
 }
+@media(max-width: 720px){
+    .cer_innner_wraper{
+        width: 85%;
+    }   
+    .cer_innner_wraper{
+        width: 90% !important;
+    }
+}
 @media(max-width: 540px){
     .cer_innner_wraper{
         width: 85%;
     }   
+    .cer_innner_wraper{
+        width: 100% !important;
+    }
 }

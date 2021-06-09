@@ -10,7 +10,7 @@ const NavbarComponent = () => {
     return (
         <>
             
-            <Navbar bg="dark" variant="dark" sticky="top" expand="md">
+            <Navbar bg="dark" variant="dark" fixed="top" expand="md">
                   <Navbar.Brand style={{flexGrow: 30}} >
                         <Typography variant="h5" style={{marginLeft:"20px"}}>Muhammad Faizan</Typography>
                   </Navbar.Brand>

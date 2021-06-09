@@ -46,3 +46,53 @@
 .projectCardButton{
     margin-left: 10% !important;
 }
+
+@media(max-width: 960px){
+    .proGridWraper{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .proGridItem{
+        margin-bottom: 20px !important;
+    }
+    .projectCardButton{
+        margin-left: 1% !important;
+    }
+    .projectCardButton *{
+        font-size: 12px !important;
+    }
+}
+
+@media(max-width: 720px){
+    .proGridWraper{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .proGridItem{
+        margin-bottom: 20px !important;
+    }
+    .projectCardButton{
+        margin-left: 1% !important;
+    }
+}
+@media(max-width: 540px){
+    .proGridWraper{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .proGridItem{
+        margin-bottom: 20px !important;
+    }
+    .projectCardButton{
+        margin-left: 1% !important;
+    }
+}
+
+@media(min-width: 960px){    
+    .projectCardButton{
+        margin-left: 4% !important;
+    }
+    .projectCardButton *{
+        font-size: 12px !important;
+    }
+}

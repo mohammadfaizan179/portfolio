@@ -5,8 +5,9 @@
 
 
 .header_wraper{
+    /* border: 2px solid red; */
     background: url("../Images/b9.jpg");
-    /* width: 100%; */
+    width: 100%;
     height: 92vh;   
     position: relative;
     background-position: center;
@@ -15,6 +16,7 @@
     display: flex;
     /* justify-content: center; */
     align-items: center; 
+    margin-top: 50px;
 }
 .header_content{
     /* border: 2px solid orange; */
@@ -26,7 +28,7 @@
 .top_caption{
     color:black;
     font-size: 20px;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Noto Serif', serif !important;
 }
 .name{
     color: black;
@@ -78,6 +80,10 @@
 /* ------------ Media Query-------------- */
 
 @media(max-width: 960px){
+    .header_wraper{
+        width: 100% !important;
+        height: 92vh;   
+    }
     .name{
         font-size: 29px;
     }
@@ -88,7 +94,6 @@
         font-size: 17px;     
     }
     .header_content{
-        /* border: 2px solid red; */
         margin-left: 10%;
         width: 50%;
     }
@@ -100,8 +105,11 @@
     }
 }
 @media(max-width: 720px){
+    .header_wraper{
+        width: 100% !important;
+        height: 92vh;   
+    }
     .header_content{
-        /* border: 2px solid red; */
         margin-left: 7%;
         width: 70%;
     }
@@ -121,10 +129,13 @@
         margin-left: 15%;
         margin-right: 10%;
     }
+      
 }
+
 @media(max-width: 540px){
     .header_wraper{
         display: flex;
+        height: 92vh;   
         flex-direction: column-reverse;
         align-items: center; 
     }
@@ -136,6 +147,6 @@
         width: 70%;
     }
     .header_pic_wraper{
-        margin-top: 5%;
+        margin-top: 30%;
     }
 }

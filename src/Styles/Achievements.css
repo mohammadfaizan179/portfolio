@@ -11,7 +11,7 @@
     padding-bottom: 30px;
 }
 .ach_heading_text{
-    /* border-bottom: 2px solid green; */
+    border-bottom: 2px solid green;
     font-family: 'Balsamiq Sans', cursive !important;
 }
 .achGridWraper{
@@ -27,6 +27,21 @@
     font-family: 'Noto Serif', serif !important;
     text-align: justify !important;
 }
+.achGridItemHead{
+    color: rebeccapurple;
+    padding-left: 15px;
+}
 .achListItemText:hover{
     color: royalblue;
+}
+
+@media(max-width: 540px){
+    .achGridWraper{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .achGridItem{
+        margin: 5px !important;
+        margin-bottom: 15px !important;
+    }
 }

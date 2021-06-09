@@ -37,6 +37,7 @@
 }
 .cardButton{
     margin-left: 28% !important;
+    margin-bottom: 20px;
 }
 
 .card_item_text_heading{
@@ -57,4 +58,35 @@
     font-family: 'Noto Serif', serif !important;
     padding-top: 10px;  
     color: #ff6600;
+}
+
+@media(max-width: 720px){
+    .cardButton{
+        margin-left: 15% !important;
+    }
+    .card_item_text_heading{
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .card_item_text{
+        font-size: 16px !important; 
+    }
+    .education_container{
+        padding-bottom: 30px;
+    }
+}
+@media(max-width: 540px){
+    .cardButton{
+        margin-left: 15% !important;
+    }
+    .card_item_text_heading{
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .card_item_text{
+        font-size: 16px !important; 
+    }
+    .education_container{
+        padding-bottom: 30px;
+    }
 }

@@ -4,8 +4,8 @@ body{
     margin: 0;
 }
 html{
-width:100%;
-overflow-x:hidden;
+    width:100%;
+    overflow-x:hidden;
 }
 
 .navLink{
@@ -26,6 +26,13 @@ overflow-x:hidden;
     .navLink *{
         font-size: 20px;   
     }
+    .navLink{
+        margin-top: 20px;
+    }  
+    body{
+        width:100%;
+        overflow-x:hidden;
+    }
 }
 @media(max-width: 720px){
     .navLink{
@@ -33,6 +40,10 @@ overflow-x:hidden;
     }   
     .navLink *{
         font-size: 20px;   
+    }  
+    body{
+        width:100%;
+        overflow-x:hidden;
     }
 }
 @media(max-width: 540px){
@@ -42,4 +53,14 @@ overflow-x:hidden;
     .navLink *{
         font-size: 20px;   
     }   
+    body{
+        width:100%;
+        overflow-x:hidden;
+    }    
+}
+@media(min-width: 960px){    
+    body{
+        width:100%;
+        overflow-x:hidden;
+    }
 }

@@ -47,28 +47,57 @@
     /* border: 2px solid orange; */
 }
 
+
 @media(max-width: 960px){
+    .about_container{
+        width: 100%;
+        min-height: 91vh;
+        padding-bottom: 50px;
+    }
+    .about_heading{
+        /* border: 2px solid green; */
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .about_content_myName{
+        font-size: 35px !important; 
+        padding-top: 25px; 
+    }
     .about_pic{
-        width: 35%;
-        height: 85%;
+        width: 60% !important;
+        height: 50% !important;
         border-radius: 200px;
         /* border: 2px solid red; */
-    }  
+    }       
 }
 @media(max-width: 720px){
+    .about_container{
+        width: 100%;
+        min-height: 91vh;
+        padding-bottom: 50px;
+    }
+    .about_heading{
+        /* border: 2px solid green; */
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .about_content_myName{
+        font-size: 35px !important; 
+        padding-top: 25px; 
+    }
     .about_pic{
-        width: 40%;
-        height: 80%;
+        width: 40% !important;
+        height: 70% !important;
         border-radius: 200px;
         /* border: 2px solid red; */
-    } 
- 
-    .about_content_myName{
-        font-size: 35px !important;
-        
     }
 }
 @media(max-width: 540px){
+    .about_container{
+        width: 100%;
+        min-height: 91vh;
+        padding-bottom: 50px;
+    }
 
     .about_content_myName{
         font-size: 30px !important;
@@ -80,4 +109,5 @@
     .picGrid{
         margin-bottom: 15px !important;
     }
+    
 }
