@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link, animateScroll as scrol} from "react-scroll"
+import { Link, animateScroll as scroll} from "react-scroll"
 import {Nav} from "react-bootstrap";
 
-const NavbarComponentSub = ({title, to}) => {
+const NavbarComponentSub = ({title, to, offset}) => {
     return (
         <>
             <Nav.Link>
@@ -11,7 +11,7 @@ const NavbarComponentSub = ({title, to}) => {
                     to={to}
                     spy={true}
                     smooth={true}
-                    offset={-20}
+                    offset={offset}
                     duration={100}
                 >
                     {title}

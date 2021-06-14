@@ -9,7 +9,7 @@ const Achievement = ({title, ach_1, ach_2, ach_3, ach_4}) => {
         <Grid item xs={12} md={6}>
             <div className="achGridItem">
                 <Typography className="achGridItemHead" variant="h5">{title}</Typography>
-                <List>
+                <List className="achList">
                     <Achievement_Sub ach={ach_1} />
                     <Achievement_Sub ach={ach_2} />
                     <Achievement_Sub ach={ach_3} />

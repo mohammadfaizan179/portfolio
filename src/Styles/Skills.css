@@ -5,6 +5,13 @@
 .skills_container{
     /* border: 2px solid gold; */
     background-color: #10101E;
+    /* background-image: linear-gradient(to bottom, rgba(0,0,0,0.9) , rgba(0,0,0,0.7)); */
+    /* background-image: url("../Images/Skills//skillBackground2.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom center;  
+    background-size:cover;   */
+    
     width: 100%;
     min-height: 91vh;
     padding-bottom: 20px;
@@ -35,9 +42,26 @@
 
 .skillsGridItem{
     /* border: 2px solid red; */
+    
     font-size: 24px !important;
     margin: 10px !important;
+    transition: transform, color 2s, 2s;
 }
+
+
+.skillsGridItem:hover{
+    transform: scale(1.2);
+    color: #e62e00;
+}
+.skillsGridItemWeb{
+    transition: transform, color 2s, 2s !important;
+}
+.skillsGridItemWeb:hover{
+    transform: scale(0.8);
+    color: #e62e00;
+}
+
+
 .skillsGridItem *{
     font-size: 20px !important;
     font-family: 'Noto Serif', serif !important;

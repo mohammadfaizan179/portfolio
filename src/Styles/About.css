@@ -4,7 +4,12 @@
 
 .about_container{
     /* border: 2px solid red; */
-    background-color: #10101E;
+    /* background-color: #10101E; */
+    background-image: url("../Images/back1.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom right;  
+    
     width: 100%;
     min-height: 91vh;
 }
@@ -21,11 +26,15 @@
 }
 .about_me{
     font-family: 'Balsamiq Sans', cursive !important; 
-    border-bottom: 2px solid#e62e00;
+    border-bottom: 2px solid#8B0000;
+    color: #000000;
+}
+.who_am_i{
+    color: #000000;
 }
 .about_pic{
-    width: 70%;
-    height: 90%;
+    width: 60%;
+    height: 85%;
     border-radius: 200px;
     /* border: 2px solid red; */
 }
@@ -38,7 +47,7 @@
     /* border: 2px solid red; */
     padding-left: 30px;
     padding-right: 20px;
-    color: white;
+    color: #000000;
     font-family: 'Noto Serif', serif;
 }
 .contentInnerGrid{

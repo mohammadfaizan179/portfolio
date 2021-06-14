@@ -18,7 +18,7 @@
     padding-bottom: 60px;
 }
 .edu_heading_text{
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid rgba(33, 150, 243);
     font-family: 'Balsamiq Sans', cursive !important; 
 }
 .gridWraper{
@@ -26,7 +26,13 @@
     padding-left: 40px;
     padding-right: 40px;
 }
-
+.eduCard{
+    transition: transform, background-color 2s, 2s !important;
+}
+.eduCard:hover{
+    transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.1);
+}
 .cardMedia{
     width: 15% !important;
     margin-left: 40% !important;
@@ -57,7 +63,7 @@
     font-weight: 700;
     font-family: 'Noto Serif', serif !important;
     padding-top: 10px;  
-    color: #ff6600;
+    color: #8B0000;
 }
 
 @media(max-width: 720px){

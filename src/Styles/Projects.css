@@ -4,6 +4,8 @@
     min-height: 91vh;
     padding-bottom: 60px;
 }
+
+
 .pro_heading_wraper{
     display: flex;
     justify-content: center;
@@ -12,7 +14,7 @@
     padding-bottom: 60px;
 }
 .pro_heading_text{
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid rgba(33, 150, 243);
     font-family: 'Balsamiq Sans', cursive !important;
 }
 .proGridWraper{
@@ -23,6 +25,10 @@
 .proGridItem{
     /* border: 2px solid tomato; */
     margin: 10px !important;
+    transition: transform 2s;
+}
+.proGridItem:hover{
+    transform: scale(1.05);
 }
 .proGridItem *{
     font-family: 'Noto Serif', serif !important;
@@ -85,7 +91,7 @@
     }
     .projectCardButton{
         flex-direction: column;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
     .projectCardButton *{
         margin: 5px !important;

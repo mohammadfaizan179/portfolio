@@ -20,7 +20,7 @@ function App() {
     <div>
         <NavbarComponent />
         <Header />
-        <div data-aos="fade-right" style={{overflowX: "hidden", overflowY: "hidden"}} >
+        <div data-aos="fade-up" style={{overflowX: "hidden", overflowY: "hidden"}} >
           <About />
         </div>
         
@@ -28,7 +28,7 @@ function App() {
           <Educations />
         </div>
         
-        <div data-aos="fade-right" style={{overflowX: "hidden", overflowY: "hidden"}}>
+        <div data-aos="fade-up" style={{overflowX: "hidden", overflowY: "hidden"}}>
           <Skills />
         </div>
         
@@ -36,7 +36,7 @@ function App() {
           <Projects />
         </div>
         
-        <div data-aos="fade-right" style={{overflowX: "hidden", overflowY: "hidden"}}>
+        <div data-aos="fade-up" style={{overflowX: "hidden", overflowY: "hidden"}}>
           <Certification />
         </div>
 

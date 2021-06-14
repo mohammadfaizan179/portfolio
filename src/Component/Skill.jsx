@@ -7,10 +7,8 @@ const Skill = ({title,pic}) => {
         <>
             <Grid item xs={12} sm={6} md={4} lg={3}>
                 <Box className="skillsGridItem">
-                    {/* <Paper> */}
-                        <img src={pic} alt="analytical" width="50px" height="70px"/>
-                        <Typography>{title}</Typography>
-                    {/* </Paper> */}
+                    <img src={pic} alt="analytical" width="50px" height="70px"/>
+                    <Typography>{title}</Typography>
                 </Box>
             </Grid>            
         </>

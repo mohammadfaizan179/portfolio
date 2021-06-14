@@ -6,7 +6,8 @@ import htmlPic from "../Images/Skills/html.png";
 import css from "../Images/Skills/css.png";
 import js from "../Images/Skills/js.png";
 import bootstrap from "../Images/Skills/bootstrap.png";
-import leaderShip from "../Images/Skills/lead.png";
+import collaboration from "../Images/Skills/collaboration.png";
+// import leaderShip from "../Images/Skills/lead.png";
 import probSolving from "../Images/Skills/ps.png";
 import analytical from "../Images/Skills/ana2.png";
 import interPers from "../Images/Skills/ip1.png";
@@ -38,18 +39,18 @@ const Skills = () => {
     return (
         <div className="skills_container" id="skills">
             <Box className="skills_heading">
-                    <Typography className="skills_heading_text" variant="h4">Skills</Typography>
+                <Typography className="skills_heading_text" variant="h4">Skills</Typography>
             </Box>
 
             {/* --------- Soft Skills ------------------- */}
             <ThemeProvider theme={theme}>
                 <Typography variant="h5" style={{color: "#fff", margin: "0 0 0 48px", padding: "10px" ,fontFamily: "Noto Serif, serif", display:"flex", borderLeft:"2px solid #e62e00"}}>Soft:</Typography>
                 <Box className="skillsGridWraper">
-                    <Grid container justify="center">
+                    <Grid container justify="center !important">              
                         <Skill title="Analytical" pic={analytical} />
                         <Skill title="Problem Solving" pic={probSolving} />
                         <Skill title="Interpersonal" pic={interPers} />
-                        <Skill title="Leadership" pic={leaderShip} />
+                        <Skill title="Collaboration" pic={collaboration} />            
                     </Grid>
                 </Box>
             </ThemeProvider>

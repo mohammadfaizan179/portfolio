@@ -7,21 +7,31 @@ html{
     width:100%;
     overflow-x:hidden;
 }
-
+.navbarWarper{
+    background-color: none;
+}
+.navbarWarper.active{
+    /* background-color:#3f51b5; */
+    /* background-color:rgba(33, 150, 243); */
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(33, 150, 243));
+}
 .navLink{
     display: flex;
     justify-content: center;
     text-align: center;
 }
 .navLink *{
-    color: white !important;
-    font-size: 16px; 
+    color: #000000 !important;
+    font-size: 18px; 
     font-family:cursive;  
+    font-weight: 300;
+}
+.navLink *:hover{
+    color: darkgrey !important;
 }
 .active{
-    color: coral !important;
-    font-weight: 700;
-    /* border-bottom: px solid red !important; */
+    /* color: #ff8f00 !important; */
+    color: #ffffff !important;
 }
 @media(max-width: 960px){
     .navLink *{

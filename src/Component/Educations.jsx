@@ -43,26 +43,26 @@ const Educations = () => {
                 <Grid container justify="center">
                     <Education
                         handleOpenDialog={handleOpenDialog}         
-                        degree="Bacholar of Electrical Engineering"
+                        degree="BE - Electrical Engineering"
                         school="Sukkur IBA University"
-                        year="2021"
-                        result="3.51 / 4"
+                        year="Year: 2021"
+                        result="CGPA: 3.51 / 4"
                         marksheet="be"
                     />
                     <Education
                         handleOpenDialog={handleOpenDialog}         
                         degree="Intermediate in Pre-Engineering"
                         school="Degree College Bakrani Larkana"
-                        year="2016"
-                        result="75.58 %"
+                        year="Year: 2016"
+                        result="Percentage: 75.58 %"
                         marksheet="fsc"
                     />
                     <Education
                         handleOpenDialog={handleOpenDialog}   
                         degree="Matriculation in Science"
                         school="Dr.NA Baloch Model School Hyderabad"
-                        year="2013"
-                        result="71.58 %"
+                        year="Year: 2013"
+                        result="Percentage: 71.58 %"
                         marksheet="matric"
                     />
                 </Grid>

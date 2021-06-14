@@ -2,6 +2,11 @@
     /* border: 2px solid red; */
     width: 100%;
     min-height: 91vh;
+    background-image: url("../Images/Skills/skillBackground3.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom center;  
+    background-size:cover;  
 }
 .ach_heading_wraper{
     display: flex;
@@ -11,7 +16,7 @@
     padding-bottom: 30px;
 }
 .ach_heading_text{
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid rgba(33, 150, 243);
     font-family: 'Balsamiq Sans', cursive !important;
 }
 .achGridWraper{
@@ -27,6 +32,13 @@
     font-family: 'Noto Serif', serif !important;
     text-align: justify !important;
 }
+.achList *{
+    transition: transform 2s;
+}
+.achList *:hover{
+    transform: scale(1.02);
+}
+
 .achGridItemHead{
     color: rebeccapurple;
     padding-left: 15px;

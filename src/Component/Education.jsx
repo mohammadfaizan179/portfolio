@@ -8,7 +8,7 @@ const Education = ({handleOpenDialog,degree, school, year, result,marksheet}) =>
         <>
             <Grid item xs={12} sm={6} lg={4}>
             <div className="gridItem">
-                <Card variant="elevation" elevation={10}>
+                <Card className="eduCard" variant="elevation" elevation={10}>
                     <CardMedia className="cardMedia" component="img" title="cap" image={cap} width="100px !important}"/>  
                     <CardContent>
                         <Typography className="card_item_text_heading">{degree}</Typography>
