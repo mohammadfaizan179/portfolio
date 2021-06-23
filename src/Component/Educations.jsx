@@ -54,7 +54,7 @@ const Educations = () => {
                         degree="Intermediate in Pre-Engineering"
                         school="Degree College Bakrani Larkana"
                         year="Year: 2016"
-                        result="Percentage: 75.58 %"
+                        result="Percentage: 75.36 %"
                         marksheet="fsc"
                     />
                     <Education
@@ -62,7 +62,7 @@ const Educations = () => {
                         degree="Matriculation in Science"
                         school="Dr.NA Baloch Model School Hyderabad"
                         year="Year: 2013"
-                        result="Percentage: 71.58 %"
+                        result="Percentage: 71.88 %"
                         marksheet="matric"
                     />
                 </Grid>

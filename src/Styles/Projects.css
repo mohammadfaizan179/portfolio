@@ -54,6 +54,7 @@
     justify-content: center;
     /* border: 2px solid red; */
 }
+
 .projectCardButton *:hover{
     color: rgb(0, 0, 0);
 }
@@ -97,13 +98,3 @@
         margin: 5px !important;
     }
 }
-
-/* @media(min-width: 960px){    
-
-    .projectCardButton{
-        margin-left: 1% !important;
-    }
-    .projectCardButton *{
-        font-size: 12px !important;
-    }
-} */

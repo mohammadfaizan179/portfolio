@@ -10,6 +10,11 @@ html{
 .navbarWarper{
     background-color: none;
 }
+.navbarLogoName{
+    margin-left:20px !important;
+    font-family:cursive !important;
+    color:#ffffff;
+}
 .navbarWarper.active{
     /* background-color:#3f51b5; */
     /* background-color:rgba(33, 150, 243); */
@@ -67,7 +72,13 @@ html{
     body{
         width:100%;
         overflow-x:hidden;
-    }    
+    } 
+    .navbarLogoName{
+        font-size: 18px;
+        margin-left:5px !important;
+        font-family:cursive !important;
+        color:#ffffff;
+    }   
 }
 @media(min-width: 960px){    
     body{

@@ -31,14 +31,14 @@ const About = () => {
                             <Grid item xs={12} sm={8}>
                                 <ul>
                                     <li><span style={{color: "#8B0000", fontSize:"18px"}}>City: </span> Hyderabad</li>
-                                    <li><span style={{color: "#8B0000", fontSize:"18px"}}>Age:</span> 26</li>
-                                    <li><span style={{color: "#8B0000", fontSize:"18px"}}>Email:</span> mohammadfaizan.be17@iba-suk.edu.pk</li>
-                                    <li><span style={{color: "#8B0000", fontSize:"18px"}}>Interest:</span> Web Development, Electrical & Electroni Control system</li>
+                                    <li><span style={{color: "#8B0000", fontSize:"18px"}}>Age:</span> 25 Years</li>
+                                    <li><span style={{color: "#8B0000", fontSize:"18px"}}>Email:</span> faizan.meo179@gmail.com</li>
+                                    <li><span style={{color: "#8B0000", fontSize:"18px"}}>Interest:</span> Web Development, Electrical & Electronic Systems</li>
                                 </ul>
                             </Grid>
                         </Grid>
                         <Typography variant="body1" style={{fontFamily: "Noto Serif, serif", textAlign:"justify", fontSize:"18px", color:"#000000"}}>
-                            I have completed my graduation in electrial engineering from Sukkur IBA University with flying colors. Besides, during my graduation I worked on the web development especially on Front-End and excell in the required skills. Making use of these skills I built usefull projects.                         
+                            I have completed my graduation in electrial engineering from Sukkur IBA University with flying colors. Besides, during my graduation passionately I worked on the web development especially on Front-End and excell in the required skills. Now I enjoy to develop the eye-catching websites.                          
                         </Typography>
                     </Grid>
                 </Grid>

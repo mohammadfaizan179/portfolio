@@ -24,7 +24,7 @@ const NavbarComponent = () => {
             <Navbar className={navbar ? "navbarWarper active" : "navbarWarper"} variant="dark" fixed="top" expand="md">
                   <Navbar.Brand style={{flexGrow: 30}} >
                         {/* <img src={logo} alt="logo" style={{marginLeft:"60px"}}/> */}
-                        <Typography variant="h5" style={{marginLeft:"20px", fontFamily:"cursive", color:"#ffffff"}}>Muhammad Faizan</Typography>
+                        <Typography className="navbarLogoName" variant="h5">Muhammad Faizan</Typography>
                   </Navbar.Brand>
                   <Navbar.Toggle style={{marginRight:"20px"}}/>
                   <Navbar.Collapse>

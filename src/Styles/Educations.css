@@ -27,7 +27,9 @@
     padding-right: 40px;
 }
 .eduCard{
-    transition: transform, background-color 2s, 2s !important;
+    /* transition: transform, background-color 2s, 2s !important; */
+    transition-property: transform, background-color !important;
+    transition-duration: 2s, 2s !important;
 }
 .eduCard:hover{
     transform: scale(1.05);
