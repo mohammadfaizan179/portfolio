@@ -13,12 +13,12 @@ const Header = () => {
         
         <div className="header_wraper" id="home">   
         <Box className="header_content">
-            <Typography variant="h6" className="top_caption">Hi There, I'm</Typography>
+            <Typography variant="h6" className="top_caption">Hi there, I'm</Typography>
             <Typography variant="h4" className="name">Muhammad Faizan</Typography>
             <Typed 
                 className="typed-text"
                 strings={["Electrical Engineer","Front-End Web Developer"]}
-                typeSpeed={20}
+                typeSpeed={40}
                 backSpeed={30}
                 loop
             />

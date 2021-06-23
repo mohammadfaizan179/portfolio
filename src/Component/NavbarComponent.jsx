@@ -35,8 +35,8 @@ const NavbarComponent = () => {
                         <NavbarComponentSub title="Education" to="edu" offset={-20}/>
                         <NavbarComponentSub title="Skills" to="skills" offset={-120}/>
                         <NavbarComponentSub title="Projects" to="projects" offset={-20}/>
-                        <NavbarComponentSub title="Certification" to="certificate" offset={-120}/>
-                        <NavbarComponentSub title="Achievement" to="achievement" offset={-20}/>
+                        <NavbarComponentSub title="Certifications" to="certificate" offset={-120}/>
+                        <NavbarComponentSub title="Achievements" to="achievement" offset={-20}/>
                     </Nav>
                     </div>
                   </Navbar.Collapse>

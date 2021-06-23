@@ -18,11 +18,11 @@ const About = () => {
                     </Grid>
                     <Grid item xs={12} md={8} className="contentGrid">
                         <Typography className="about_content_myName" style={{fontFamily: "Balsamiq Sans, cursive", color:"#8B0000"}} variant="h3">Muhammad Faizan</Typography>
-                        <Typography style={{fontFamily: "Noto Serif, serif", color:"#000000"}} variant="h6">I am an Electrical Engineering and Front-End Web Developer</Typography>
+                        <Typography style={{fontFamily: "Noto Serif, serif", color:"#000000"}} variant="h6">I am an Electrical Engineer and Front-End Web Developer</Typography>
                         <Grid container className="contentInnerGrid">
                             <Grid item xs={12} sm={4}>
                                 <ul>
-                                    <li><span style={{color: "#8B0000", fontSize:"18px"}}>Natinality:</span> Pakistani</li>
+                                    <li><span style={{color: "#8B0000", fontSize:"18px"}}>Nationality:</span> Pakistani</li>
                                     <li><span style={{color: "#8B0000", fontSize:"18px"}}>Birthday:</span> 7 June 1996</li>
                                     <li><span style={{color: "#8B0000", fontSize:"18px"}}>Mobile:</span> 03135399179</li>
                                     <li><span style={{color: "#8B0000", fontSize:"18px"}}>Qualification:</span> Graduation</li>
@@ -38,7 +38,7 @@ const About = () => {
                             </Grid>
                         </Grid>
                         <Typography variant="body1" style={{fontFamily: "Noto Serif, serif", textAlign:"justify", fontSize:"18px", color:"#000000"}}>
-                            I have completed my graduation in electrial engineering from Sukkur IBA University with flying colors. Besides, during my graduation passionately I worked on the web development especially on Front-End and excell in the required skills. Now I enjoy to develop the eye-catching websites.                          
+                            I have completed my graduation in electrial engineering from Sukkur IBA University with flying colors. Besides during my graduation,  I worked passionately on the web development especially on Front-End and excell in the required skills. Now I enjoy to develop the eye-catching websites.                          
                         </Typography>
                     </Grid>
                 </Grid>

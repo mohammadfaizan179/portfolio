@@ -41,7 +41,7 @@ const Projects = () => {
                         <Project 
                             pic={store}
                             title="E-Commerce Shop"
-                            content="It is a E-commerce store that allow you users to add the products in the cart, increase or decrease the item quantity, remove the item from cart, and purchase it. Besides it send confirmation email."
+                            content="It is an E-commerce store that allow users to add the products in the cart, increase or decrease the item quantity, remove the item, and clear the cart, and process their transaction through paypal sandbox."
                             link="https://github.com/mohammadfaizan179/e_commerce_website"
                             proj_link = "https://react-ecommerce-shope.netlify.app/"
                         />

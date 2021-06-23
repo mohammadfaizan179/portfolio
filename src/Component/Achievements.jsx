@@ -20,7 +20,7 @@ const Achievements = () => {
     return (
         <div className="ach_container" id="achievement">
             <Box className="ach_heading_wraper">
-                <Typography variant="h4" className="ach_heading_text">Achievement</Typography>
+                <Typography variant="h4" className="ach_heading_text">Achievements</Typography>
             </Box>
             <ThemeProvider theme={theme}>
                 <div className="achGridWraper">
