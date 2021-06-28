@@ -5,9 +5,10 @@ import {createMuiTheme} from "@material-ui/core/styles";
 import cap from "../Images/fort.jpg";
 import { makeStyles } from '@material-ui/core/styles';
 import Project from "./Project";
-import crud from "../Images/crud2.jpg";
+import crud from "../Images/crud2.PNG";
 import covid from "../Images/covid.jpeg";
 import store from "../Images/store.jpg";
+import todo from "../Images/todo.png";
 
 const theme = createMuiTheme({
     breakpoints: {
@@ -42,22 +43,29 @@ const Projects = () => {
                             pic={store}
                             title="E-Commerce Shop"
                             content="It is an E-commerce store that allow users to add the products in the cart, increase or decrease the item quantity, remove the item, and clear the cart, and process their transaction through paypal sandbox."
-                            link="https://github.com/mohammadfaizan179/e-shope"
+                            github_link="https://github.com/mohammadfaizan179/e-shope"
                             proj_link = "https://react-ecommerce-shope.netlify.app/"
                         />
                         <Project 
                             pic={covid}
                             title="Covid-19 Dashboard"
                             content="This App is about the Covid-19, you can check the current covid-19 cases country wise. Besides, you will get awarness of symptom, causes and frequently asked questions."
-                            link="https://github.com/mohammadfaizan179/covid_19_dashboard"
+                            github_link="https://github.com/mohammadfaizan179/covid_19_dashboard"
                             proj_link = "https://react-covid-19-dashboard.netlify.app/"
                         />
                         <Project 
                             pic={crud}
                             title="Crud App"
-                            content="This app allows the user to perform the 4 popular API CRUD operations i.e. create, read, update and delete. The data given by the user is stored in the JSON file by the axios."
-                            link="https://github.com/mohammadfaizan179/crud-app"
-                            proj_link = "https://react-crud-aap.netlify.app/"
+                            content="This app allows the user to perform the 4 popular CRUD operations i.e. create, read, update and delete. The app uses the redux to manage the state of app. Besides uses the framer motion for animations"
+                            github_link="https://github.com/mohammadfaizan179/contact-book"
+                            proj_link = "https://redux-react-crud-app.netlify.app/"
+                        />
+                        <Project 
+                            pic={todo}
+                            title="ToDo App"
+                            content="This app allows the user to record the delay routine tasks. It allows to edit, and push the tasks in the completed list. Besides it allows to cancel any task. It uses the redux for the flow of data."
+                            github_link="https://github.com/mohammadfaizan179/React-Redux-ToDo-App"
+                            proj_link = "https://react-redux-todo-animated-app.netlify.app/"
                         />
                     </Grid>
                 </div>
