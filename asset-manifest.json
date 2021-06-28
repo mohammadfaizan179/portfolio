@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.93bb8797.chunk.css",
-    "main.js": "/portfolio/static/js/main.263a23d1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.263a23d1.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.9fbefbdd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9fbefbdd.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.99b565f4.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.99b565f4.js.map",
     "static/css/2.c4b60772.chunk.css": "/portfolio/static/css/2.c4b60772.chunk.css",
@@ -20,7 +20,7 @@
     "static/media/bootstrap.f132cb79.png": "/portfolio/static/media/bootstrap.f132cb79.png",
     "static/media/cap2.9267ef5d.png": "/portfolio/static/media/cap2.9267ef5d.png",
     "static/media/covid.e002f516.jpeg": "/portfolio/static/media/covid.e002f516.jpeg",
-    "static/media/crud2.70ac7ea9.jpg": "/portfolio/static/media/crud2.70ac7ea9.jpg",
+    "static/media/crud2.3753a376.PNG": "/portfolio/static/media/crud2.3753a376.PNG",
     "static/media/fort.179aa3fb.jpg": "/portfolio/static/media/fort.179aa3fb.jpg",
     "static/media/fsc.ce3aaa6d.jpg": "/portfolio/static/media/fsc.ce3aaa6d.jpg",
     "static/media/iot.9bb826db.jpg": "/portfolio/static/media/iot.9bb826db.jpg",
@@ -33,6 +33,7 @@
     "static/media/python.4e683d89.jpg": "/portfolio/static/media/python.4e683d89.jpg",
     "static/media/Achievements.css": "/portfolio/static/media/skillBackground3.558edf08.png",
     "static/media/store.3c7aeec8.jpg": "/portfolio/static/media/store.3c7aeec8.jpg",
+    "static/media/todo.f795ae3e.png": "/portfolio/static/media/todo.f795ae3e.png",
     "static/media/web.7da038ed.jpg": "/portfolio/static/media/web.7da038ed.jpg"
   },
   "entrypoints": [
@@ -40,6 +41,6 @@
     "static/css/2.c4b60772.chunk.css",
     "static/js/2.5638ceec.chunk.js",
     "static/css/main.93bb8797.chunk.css",
-    "static/js/main.263a23d1.chunk.js"
+    "static/js/main.9fbefbdd.chunk.js"
   ]
 }
