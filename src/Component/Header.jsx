@@ -17,7 +17,7 @@ const Header = () => {
             <Typography variant="h4" className="name">Muhammad Faizan</Typography>
             <Typed 
                 className="typed-text"
-                strings={["Electrical Engineer","Front-End Web Developer"]}
+                strings={["Electrical Engineer","Web Developer"]}
                 typeSpeed={40}
                 backSpeed={30}
                 loop

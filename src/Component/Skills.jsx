@@ -5,6 +5,9 @@ import {createMuiTheme} from "@material-ui/core/styles";
 import htmlPic from "../Images/Skills/html.png";
 import css from "../Images/Skills/css.png";
 import js from "../Images/Skills/js.png";
+import python from "../Images/Skills/python.png";
+import mysql from "../Images/Skills/mysql.png";
+import office from "../Images/Skills/office.png";
 import bootstrap from "../Images/Skills/bootstrap.png";
 import collaboration from "../Images/Skills/collaboration.png";
 // import leaderShip from "../Images/Skills/lead.png";
@@ -61,8 +64,9 @@ const Skills = () => {
                 <Grid container justify="center">
                     <SkillWeb pic={htmlPic} title="HTML" value={100} />
                     <SkillWeb pic={css} title="CSS" value={85} />
-                    <SkillWeb pic={js} title="JavaScript" value={80} />
-                    <SkillWeb pic={react} title="React-JS" value={85} />
+                    <SkillWeb pic={js} title="JavaScript" value={85} />
+                    <SkillWeb pic={python} title="Python" value={80} />
+                    <SkillWeb pic={react} title="React-JS" value={90} />
                     <SkillWeb pic={jsx} title="JSX" value={80} />
                     <SkillWeb pic={bootstrap} title="Bootstrap" value={100} />
                     <SkillWeb pic={redux} title="Redux" value={75} />
@@ -77,10 +81,10 @@ const Skills = () => {
                 <Typography variant="h5" style={{color: "#fff", margin: "0 0 0 48px", padding: "10px" ,fontFamily: "Noto Serif, serif", display:"flex", borderLeft:"2px solid #e62e00"}}>Tools:</Typography>
                 <Box className="skillsGridWraper">
                 <Grid container justify="center">
+                    <Skill title="MySQL" pic={mysql} />
                     <Skill title="Git/GitHub" pic={git} />
                     <Skill title="NPM" pic={npm} />
-                    <Skill title="Babel & WebPack" pic={babel} />
-                    <Skill title="Wireframe (Balsamiq)" pic={balsamiq} />
+                    <Skill title="MS Office" pic={office} />
                 </Grid>
                 </Box>
             </ThemeProvider>

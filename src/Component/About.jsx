@@ -18,7 +18,7 @@ const About = () => {
                     </Grid>
                     <Grid item xs={12} md={8} className="contentGrid">
                         <Typography className="about_content_myName" style={{fontFamily: "Balsamiq Sans, cursive", color:"#8B0000"}} variant="h3">Muhammad Faizan</Typography>
-                        <Typography style={{fontFamily: "Noto Serif, serif", color:"#000000"}} variant="h6">I am an Electrical Engineer and Front-End Web Developer</Typography>
+                        <Typography style={{fontFamily: "Noto Serif, serif", color:"#000000"}} variant="h6">I am an Electrical Engineer and Web Developer</Typography>
                         <Grid container className="contentInnerGrid">
                             <Grid item xs={12} sm={4}>
                                 <ul>
@@ -38,7 +38,7 @@ const About = () => {
                             </Grid>
                         </Grid>
                         <Typography variant="body1" style={{fontFamily: "Noto Serif, serif", textAlign:"justify", fontSize:"18px", color:"#000000"}}>
-                            I have completed my graduation in electrial engineering from Sukkur IBA University with flying colors. Besides during my graduation,  I worked passionately on the web development especially on Front-End and excell in the required skills. Now I enjoy to develop the eye-catching websites.                          
+                            I have completed my graduation in electrial engineering from Sukkur IBA University with flying colors. Besides,  I have been working passionately on the web development for the last one and half year and have excelled in the required skills.                          
                         </Typography>
                     </Grid>
                 </Grid>
