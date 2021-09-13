@@ -2,7 +2,6 @@ import React from 'react'
 import "../Styles/Projects.css";
 import {ThemeProvider, Grid, Typography, Box, Button, Card, CardMedia, CardContent, CardActions,} from "@material-ui/core";
 import {createMuiTheme} from "@material-ui/core/styles";
-import cap from "../Images/fort.jpg";
 import { makeStyles } from '@material-ui/core/styles';
 import Project from "./Project";
 import crud from "../Images/crud2.PNG";

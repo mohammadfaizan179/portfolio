@@ -17,7 +17,7 @@ const Education = ({handleOpenDialog,degree, school, year, result,marksheet}) =>
                         <Typography className="card_item_res">{result}</Typography>                            
                     </CardContent>
                     <CardActions className="cardButton">
-                    <Button style={{backgroundColor: "royalblue"}} variant="contained" color="primary" color="primary" onClick={()=> handleOpenDialog(marksheet)}>{marksheet === "be" ? "View Transcript" : "View Marksheet"} </Button>
+                    {/* <Button style={{backgroundColor: "royalblue"}} variant="contained" color="primary" color="primary" onClick={()=> handleOpenDialog(marksheet)}>{marksheet === "be" ? "View Transcript" : "View Marksheet"} </Button> */}
                     </CardActions>
                 </Card>
             </div>
